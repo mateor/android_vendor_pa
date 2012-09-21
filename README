@@ -2,12 +2,39 @@ Paranoid Android for Nook Color
 
 This readme is for ICS. We'll add 4.1 next week sometime.
 
+Okay, this buld process is completely untested, since I just threw the xml together. I won't even say it should work. 
 
-Build instructions coming later, after I get the sync stuff set up.
+But it might, and if it does, it will be easy.
+__________________________________________________
 
+SET-UP
 
+Install the dependencies. This includes JDK, SDK and a bunch of packages. 
+Follow the wiki 
 
+http://wiki.cyanogenmod.com/wiki/Barnes_%26_Noble_Nook_Color:_Compile_CyanogenMod_(Linux)
 
+when it says to sync a branch, use this instead
+
+$ repo init -u git://github.com/mateor/android.git -b ics
+
+This should grab everything you need, no need for local_manifest.xml. 
+
+If it doesn't, well then I need to edit my default.xml. Let me know!
+------------------------------
+
+TO BUILD
+$ . build/envsetup.sh
+$ lunch
+[pick whichever number pa_encore_userdebug is. It should be the last on the list (82 or so)]
+$ make bacon
+
+that is it. SOOSOSOSOSOSO easy, amirite?
+
+The ROM should be found at $PWD/out/target/product/encore/pa_encore-1.6aETC.zip
+
+Enjoy!
+-------------------------------
 
 *** If you would like to contribute to my upcoming app ***
     --------------------------------------
