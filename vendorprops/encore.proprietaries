@@ -1,0 +1,8 @@
+[
+    {
+        "account":      "nemith",
+        "repository":   "android_vendor_bn_encore",
+        "target_path":  "vendor/bn/encore/proprietary",
+        "revision":     "ics"
+    }
+]
