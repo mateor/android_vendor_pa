@@ -17,7 +17,9 @@ http://wiki.cyanogenmod.com/wiki/Barnes_%26_Noble_Nook_Color:_Compile_CyanogenMo
 when it says to sync a branch, use this instead
 
 $ repo init -u git://github.com/mateor/android.git -b ics
+$ repo sync
 
+You can repo sync with whichever thread options you prefer, but the above is equivalent to -j4.
 This should grab everything you need, no need for local_manifest.xml. 
 
 If it doesn't, well then I need to edit my default.xml. Let me know!
