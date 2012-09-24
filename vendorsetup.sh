@@ -25,3 +25,4 @@ add_lunch_combo pa_d2tmo-userdebug
 add_lunch_combo pa_quincytmo-userdebug
 add_lunch_combo pa_skyrocket-userdebug
 add_lunch_combo pa_evita-userdebug
+add_lunch_combo pa_encore-userdebug
