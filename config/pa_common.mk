@@ -7,7 +7,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Replace CM files
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/pa/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk
+    vendor/pa/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk \
+    vendor/pa/prebuilt/common/apk/SuperSU.apk:system/app/SuperSU.apk \
+    vendor/pa/prebuilt/common/xbin/su:system/xbin/su
 
 ifneq ($(PARANOID_BOOTANIMATION_NAME),)
     PRODUCT_COPY_FILES += \
@@ -21,12 +23,6 @@ endif
 PRODUCT_PACKAGES += \
     ParanoidPreferences \
     ParanoidWallpapers
-
-# CyanogenMod Packages
-PRODUCT_PACKAGES += \
-    Superuser \
-    Superuser.apk \
-    su
 
 # device common prebuilts
 ifneq ($(DEVICE_COMMON),)
@@ -60,7 +56,7 @@ CM_BUILD := $(BOARD)
 
 PA_VERSION_MAJOR = 2
 PA_VERSION_MINOR = 1
-PA_VERSION_MAINTENANCE = 4
+PA_VERSION_MAINTENANCE = 7
 
 TARGET_CUSTOM_RELEASETOOL := vendor/pa/tools/squisher
 
@@ -73,6 +69,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.goo.developerid=paranoidandroid \
-  ro.goo.board=$(BOARD) \
-  ro.goo.rom=$(TARGET_PRODUCT) \
+  ro.goo.rom=paranoidandroid \
   ro.goo.version=$(shell date +%s)
