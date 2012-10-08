@@ -1,8 +1,0 @@
-[
-    {
-        "account":      "eyeballer",
-        "repository":   "proprietary_vendor_bn",
-        "target_path":  "vendor/bn",
-        "revision":     "jellybean"
-    }
-]
