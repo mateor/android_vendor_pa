@@ -99,6 +99,9 @@ else
 	OUTFILE=$OUT/update-squished.zip
 fi
 
+# PA versioning
+( cd $REPACK/ota/system/etc/paranoid; echo com.paranoid.preferences.version=$PAVERSION >> backup.conf; )
+
 # Pack it up and sign
 printf "Zipping package..."
 ( cd $REPACK/ota; zip $QUIET -r $REPACK/update.zip . )
