@@ -109,3 +109,6 @@ endif
 ifeq (pa_mint,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_mint.mk
 endif
+ifeq (pa_tf700t,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tf700t.mk
+endif
