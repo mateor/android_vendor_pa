@@ -17,19 +17,18 @@
  */
 -->
 
-<property name="Tablet UI" active="true" image="/system/etc/paranoid/preferences/res/pref_4">
+<property name="Tablet UI" active="true" image="/system/etc/paranoid/preferences/res/tablet.jpg">
 
         <description><![CDATA[Hybrid mode <b><font color='green'>on</font></b><br\>Tablet workspace<br\>5 Icons<br\>]]></description>
         <setting type="Hybrid" target="%hybrid_mode" value="1"/>
-        <setting type="Hybrid" target="com.android.systemui.dpi" value="160"/>
+        <setting type="Hybrid" target="com.android.systemui.dpi" value="180"/>
         <setting type="Hybrid" target="com.android.systemui.layout" value="720"/>
         <setting type="Android" target="max_notification_icons" value="5"/>
         <setting type="Android" target="status_bar_battery" value="4"/>
-        <setting type="Android" target="lockscreen_clock_align" value="center"/>
+        <setting type="Android" target="lockscreen_clock_align_left" value="1"/>
         <setting type="Android" target="nav_bar_status" value="1"/>
         <setting type="Android" target="statusbar_toggles_enable" value="1"/>
-        <setting type="Android" target="statusbar_toggles" value="3"/>
-        <setting type="Android" target="statusbar_toggles" value="ROTATE|WIFI|BLUETOOTH|SILENT"/>
+        <setting type="Android" target="statusbar_toggles" value="1"/>
         <setting type="Android" target="statusbar_toggles_show_brightness" value="1"/>
 
 </property>
