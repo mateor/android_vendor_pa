@@ -23,6 +23,10 @@
         <setting type="Hybrid" target="%hybrid_mode" value="1"/>
         <setting type="Hybrid" target="com.android.systemui.dpi" value="%rom_default_dpi"/>
         <setting type="Hybrid" target="com.android.systemui.layout" value="%rom_default_layout"/>
+        <setting type="Android" target="statusbar_toggles_enable" value="1"/>
+        <setting type="Android" target="statusbar_toggles" value="2"/>
+        <setting type="Android" target="statusbar_toggles" value="ROTATE|WIFI|BLUETOOTH|SILENT"/>
+        <setting type="Android" target="statusbar_toggles_show_brightness" value="1"/>
         <setting type="Android" target="max_notification_icons" value="5"/>
 
 </property>
