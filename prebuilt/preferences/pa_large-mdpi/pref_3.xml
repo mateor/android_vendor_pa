@@ -21,7 +21,7 @@
 
         <description><![CDATA[Hybrid mode <b><font color='green'>on</font></b><br\>Tablet workspace<br\>5 Icons<br\>]]></description>
         <setting type="Hybrid" target="%hybrid_mode" value="1"/>
-        <setting type="Hybrid" target="com.android.systemui.dpi" value="180"/>
+        <setting type="Hybrid" target="com.android.systemui.dpi" value="%rom_default_dpi"/>
         <setting type="Hybrid" target="com.android.systemui.layout" value="720"/>
         <setting type="Android" target="max_notification_icons" value="5"/>
         <setting type="Android" target="status_bar_battery" value="4"/>
