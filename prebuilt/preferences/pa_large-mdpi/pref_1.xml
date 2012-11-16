@@ -17,7 +17,7 @@
  */
 -->
 
-<property name="Stock(Phablet) UI" active="true" image="/system/etc/paranoid/preferences/res/phablet.jpg">
+<property name="Stock(Phablet) UI" active="true" image="/system/etc/paranoid/preferences/images/phablet.jpg">
 
         <description><![CDATA[
                 Hybrid mode <b><font color='green'>on</font></b><br\>

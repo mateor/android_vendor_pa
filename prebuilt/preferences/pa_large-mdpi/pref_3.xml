@@ -17,7 +17,7 @@
  */
 -->
 
-<property name="Tablet UI" active="true" image="/system/etc/paranoid/preferences/res/tablet.jpg">
+<property name="Tablet UI" active="true" image="/system/etc/paranoid/preferences/images/tablet.jpg">
 
         <description><![CDATA[Hybrid mode <b><font color='green'>on</font></b><br\>Tablet workspace<br\>5 Icons<br\>]]></description>
         <setting type="Hybrid" target="%hybrid_mode" value="1"/>
