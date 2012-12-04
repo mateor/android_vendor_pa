@@ -14,7 +14,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/pa/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/pa/prebuilt/common/bin/50-cm.sh:system/addon.d/50-cm.sh
+    vendor/pa/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
 
 # Exclude prebuilt paprefs from builds if the flag is set
 ifneq ($(PREFS_FROM_SOURCE),true)
