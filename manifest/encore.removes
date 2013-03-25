@@ -18,5 +18,9 @@
     {
         "name":     "ParanoidAndroid/android_system_extras",
         "path":     "system/extras"
-    }
+    },
+    {
+        "name":     "platform/system/vold",
+        "path":     "system/vold"
+    },
 ]
