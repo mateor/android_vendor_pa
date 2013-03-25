@@ -22,5 +22,5 @@
     {
         "name":     "platform/system/vold",
         "path":     "system/vold"
-    },
+    }
 ]
