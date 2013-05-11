@@ -56,7 +56,9 @@ CM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version = $(CM_VERSION)
 
-# ParanoidAndroid for Nook Color Goo Manager update parameters
+# ParanoidAndroid for Nook Color Goo Manager update parameters (DEV_VER set so as to override pa_common.mk
+
+DEVELOPER_VERSION := true
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.goo.developerid=mateor \
   ro.goo.rom=pa_encore \
