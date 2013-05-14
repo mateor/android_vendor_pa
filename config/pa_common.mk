@@ -98,9 +98,9 @@ TARGET_CUSTOM_RELEASETOOL :=source vendor/pa/tools/squisher
 
 VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 ifeq ($(DEVELOPER_VERSION),true)
-    PA_VERSION := dev_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
+    PA_VERSION := dev_$(BOARD)-$(VERSION)-$(shell date +%Y%m%0d-%H%M)
 else
-    PA_VERSION := $(TARGET_PRODUCT)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
+    PA_VERSION := $(TARGET_PRODUCT)-$(VERSION)-$(shell date +%Y%m%0d-%H%M)
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
