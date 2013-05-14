@@ -36,6 +36,8 @@ $(call inherit-product, device/bn/encore/full_encore.mk)
 # CM Package Extras
 -include vendor/pa/packages/cm.mk
 
+PRODUCT_PACKAGES += Email
+
 # Override AOSP build properties
 PRODUCT_NAME := pa_encore
 PRODUCT_BRAND := bn
