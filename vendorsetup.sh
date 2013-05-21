@@ -12,4 +12,7 @@ add_lunch_combo pa_toro-userdebug
 add_lunch_combo pa_toroplus-userdebug
 add_lunch_combo pa_crespo-userdebug
 add_lunch_combo pa_endeavoru-userdebug
+add_lunch_combo pa_d710-userdebug
+add_lunch_combo pa_i605-userdebug
+add_lunch_combo pa_l900-userdebug
 add_lunch_combo pa_encore-userdebug
