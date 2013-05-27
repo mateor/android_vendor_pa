@@ -51,6 +51,7 @@ ifeq (pa_i605,$(TARGET_PRODUCT))
 endif
 ifeq (pa_l900,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_l900.mk
+endif
 ifeq (pa_encore,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_encore.mk
 endif
