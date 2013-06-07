@@ -42,6 +42,10 @@ $(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 PRODUCT_PACKAGES += \
     ParanoidWallpapers
 
+# AOKP common packages
+PRODUCT_PACKAGES += \
+    PermissionsManager
+
 # Embed SuperUser in Settings
 SUPERUSER_EMBEDDED := true
 
