@@ -55,3 +55,6 @@ endif
 ifeq (pa_encore,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_encore.mk
 endif
+ifeq (pa_find5,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_find5.mk
+endif
