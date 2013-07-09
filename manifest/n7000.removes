@@ -1,0 +1,30 @@
+[
+    {
+        "name":     "platform/external/wpa_supplicant_8",
+        "path":     "external/wpa_supplicant_8"
+    },
+    {
+        "name":     "platform/external/wpa_supplicant_6",
+        "path":     "external/wpa_supplicant_6"
+    },
+    {
+        "name":     "platform/hardware/broadcom/wlan",
+        "path":     "hardware/broadcom/wlan"
+    },
+    {
+        "name":     "platform/hardware/ti/wlan",
+        "path":     "hardware/ti/wlan"
+    },
+    {
+        "name":     "platform/system/netd",
+        "path":     "system/netd"
+    },
+    {
+        "name":     "platform/system/vold",
+        "path":     "system/vold"
+    },
+    {
+        "name":     "ParanoidAndroid/android_bionic",
+        "path":     "bionic"
+    }
+]
