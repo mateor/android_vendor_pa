@@ -45,6 +45,10 @@ else
         ParanoidPreferences
 endif
 
+# ParanoidOTA
+PRODUCT_PACKAGES += \
+    ParanoidOTA
+
 ifneq ($(PARANOID_BOOTANIMATION_NAME),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/common/bootanimation/$(PARANOID_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
@@ -87,10 +91,10 @@ PRODUCT_COPY_FILES += \
 
 PA_VERSION_MAJOR = 3
 PA_VERSION_MINOR = 6
-PA_VERSION_MAINTENANCE = 5
+PA_VERSION_MAINTENANCE = 9
 PA_PREF_REVISION = 1
 
-TARGET_CUSTOM_RELEASETOOL :=source vendor/pa/tools/squisher
+TARGET_CUSTOM_RELEASETOOL := source vendor/pa/tools/squisher
 
 VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 ifeq ($(DEVELOPER_VERSION),true)
